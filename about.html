@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario de UsuarioAAAAA</title>
+</head>
+<body>
+    <h2>Formulario de Usuario</h2>
+    <form id="userForm">
+        <label for="name">Nombre:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Correo electrónico:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="username">Nombre de usuario:</label><br>
+        <input type="text" id="username" name="username"><br>
+        <label for="age">Edad:</label><br>
+        <input type="number" id="age" name="age"><br><br>
+        <input type="button" value="Enviar" onclick="printData()">
+    </form> 
+
+    <script>
+        function printData() {
+            var name = document.getElementById("name").value;
+            var email = document.getElementById("email").value;
+            var username = document.getElementById("username").value;
+            var age = document.getElementById("age").value;
+            
+            console.log("Nombre: " + name);
+            console.log("Correo electrónico: " + email);
+            console.log("Nombre de usuario: " + username);
+            console.log("Edad: " + age);
+        }
+    </script>
+</body>
+</html>
+
