@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario de Usuario (Cambio local 7)</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="button"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type="button"]:hover {
+    background-color: #45a049;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    form {
+        width: 100%;
+        padding: 15px;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <h2>Formulario de Usuario</h2>
+    <form id="userForm">
+        <label for="name">Nombre:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Correo electrónico:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="username">Nombre de usuario:</label><br>
+        <input type="text" id="username" name="username"><br>
+        <label for="age">Edad:</label><br>
+        <input type="number" id="age" name="age"><br><br>
+        <input type="button" value="Enviar" onclick="printData()">
+    </form> 
+
+    <script>
+        function printData() {
+            var name = document.getElementById("name").value;
+            var email = document.getElementById("email").value;
+            var username = document.getElementById("username").value;
+            var age = document.getElementById("age").value;
+            
+            console.log("Nombre: " + name);
+            console.log("Correo electrónico: " + email);
+            console.log("Nombre de usuario: " + username);
+            console.log("Edad: " + age);
+        }
+    </script>
+</body>
+</html>
