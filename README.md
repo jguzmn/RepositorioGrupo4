@@ -8,7 +8,7 @@ Este es un proyecto de prueba creado para el aprendizaje sobre administración d
 | Nombre            | Usuario de GitHub | Rol                | Responsabilidades                                                     |
 |-------------------|-------------------|--------------------|-----------------------------------------------------------------------|
 | Castañeda, Wiston |  wccm92   | Revisor            | Revisión de código, asegurarse de que el código cumple con los estándares del proyecto. |
-| Florez, Álvaro    | ajfa89   | Revisor            | Revisar pull requests, proporcionar retroalimentación, garantizar la calidad del código. |
+| Florez, Álvaro    | ajfa1989   | Revisor            | Revisar pull requests, proporcionar retroalimentación, garantizar la calidad del código. |
 | Rodriguez, Gabriel    |  inggarm | Revisor            | Revisar pull requests, proporcionar retroalimentación, garantizar la calidad del código. |
 | Guzman, Jorge     |  jguzmn  | Adm. Repositorio   | Gestionar el flujo de trabajo de Git |
 | Parody, Hemel     |  hparody    | Desarrollador      | Desarrollar características, resolver bugs, realizar tests unitarios e integración. |
