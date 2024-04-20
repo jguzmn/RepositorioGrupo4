@@ -12,7 +12,7 @@ Este es un proyecto de prueba creado para el aprendizaje sobre administración d
 | Rodriguez, Gabriel    |  inggarm | Revisor            | Revisar pull requests, proporcionar retroalimentación, garantizar la calidad del código. |
 | Guzman, Jorge     |  jguzmn  | Adm. Repositorio   | Gestionar el flujo de trabajo de Git |
 | Parody, Hemel     |  hparody    | Desarrollador      | Desarrollar características, resolver bugs, realizar tests unitarios e integración. |
-| Vanessa, Quintero | vpquintero   | Desarrollador      | Implementar automatización de pruebas, despliegues, y asistir en la configuración del entorno de desarrollo. |
+| Quintero, Vanessa | vpquintero   | Desarrollador      | Implementar automatización de pruebas, despliegues, y asistir en la configuración del entorno de desarrollo. |
 
 
 
