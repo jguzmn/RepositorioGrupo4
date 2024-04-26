@@ -1,0 +1,4 @@
+Escenario4:
+Dado que soy un super usuario
+Cuando esté en la pagina de inicio de sección
+Entonces  debo ver todos los botones disponibles. 
