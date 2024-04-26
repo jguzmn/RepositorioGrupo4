@@ -1,0 +1,21 @@
+Notificaciones por correo electrónico según jerarquía y estado
+Feature: Notificaciones por correo electrónico por jerarquía y estado
+Background: Dado que soy un usuario autorizado, como <Role>, con acceso a productos anuales
+| Role       |
+| Wholesaler | 
+| Retailer   |
+| Super Admin|
+| User Admin |
+He enviado una política a Subscription
+Y la Suscripción inicia sesión en Salesforce 
+Y <tool> actualiza el estado de la política a <status>. 
+Y he comprobado que el estado se ha actualizado a <status> en la sección de envío de políticas desde el menú.
+| tool         | status    |
+| underwriting | quoted    |
+| underwriting | rejected  |
+| underwriting | bound     |
+Escenario: Jerarquías en las que se envían dos correos electrónicos. 
+Dado que soy un padre mayorista que tiene un hijo minorista
+Cuando se produce un cambio de estado de la póliza
+Entonces el email especificado en el campo de contacto principal del Mayorista padre debe recibir un email
+Y el email especificado se envía al contacto productor rellenado en la póliza.
