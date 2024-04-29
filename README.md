@@ -1,6 +1,6 @@
 # RepositorioGrupo4
 
-Este es un proyecto de prueba creado para el aprendizaje sobre administración de repositorios.
+Este proyecto sirve como guía práctica para la administración de repositorios en GitHub, enfocándose en la colaboración efectiva y la gestión óptima del ciclo de vida del software.
 
 
 ## Roles y Responsabilidades
